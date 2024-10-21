@@ -1,0 +1,36 @@
+@media screen and (max-width: 1100px) {
+    .navigation {
+      display: flex;
+      flex-direction: column;
+    }
+    .right input {
+      width: 22vw;
+    }
+    .right button {
+      width: 12vw;
+    }
+    .contentright {
+      display: none;
+    }
+    .article {
+      width: 93%;
+    }
+    .articles {
+      height: 130vh;
+    }
+    .art-left img {
+      object-fit: cover;
+      height: 19vh;
+      width: 31vw;
+    }
+    .postcontent {
+      height: 435vh;
+    }
+  }
+  
+  @media screen and (max-width: 325px) {
+    .postcontent {
+      height: 984vh;
+    }
+    
+  }

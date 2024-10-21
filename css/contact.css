@@ -1,0 +1,47 @@
+.contact {
+    background-color: #ffe6b9;
+    height: 74vh;
+    margin-top: 7vh;
+    border-radius: 8px;
+  }
+  .contactform {
+    display: flex;
+    flex-direction: column;
+  }
+  .contactform input {
+    width: 60vw;
+    margin: 14px 20px 0px 30px;
+    padding: 9px;
+    border-radius: 10px;
+  }
+  .contactform input:hover {
+    border: 2px solid orange;
+  }
+  
+  .contactform textarea {
+    width: 60vw;
+    margin: 14px 20px 0px 30px;
+    padding: 9px;
+    border-radius: 10px;
+  }
+  .contactform textarea:hover {
+    border: 2px solid orange;
+  }
+  #btn {
+    margin: 14px 0px 0 30px;
+    width: 15vw;
+    padding: 4px 3px 4px 3px;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  #btn:hover {
+    background-color: orangered;
+    transition: all 0.4s ease-in-out;
+    color: white;
+  }
+  .contacthead h2 {
+    margin: 15px 0px 0px 30px;
+    font-family: var(--font2);
+    font-weight: bold;
+  }

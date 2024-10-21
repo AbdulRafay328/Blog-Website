@@ -1,0 +1,43 @@
+.postimg img {
+    object-fit: cover;
+    height: 55vh;
+    width: 97vw;
+    margin-left: 0.7vw;
+    margin-top: 3vh;
+    opacity: 0.6;
+  }
+  .articles {
+    background-color: #ffe6b9;
+    height: 200vh;
+    margin-top: 2%;
+    border-radius: 25px;
+  }
+  .postcontent {
+    background-color: #fff3dd;
+    height: 222vh;
+    border-radius: 20px;
+    margin-top: 2%;
+  }
+  .postcontent h1 {
+    text-align: center;
+    font-family: var(--font2);
+  }
+  .postcontent p {
+    margin: 2% 2% 2% 2%;
+    font-size: 20px;
+  }
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+  }
+  .infoleft {
+    margin-left: 2%;
+  }
+  .inforight {
+    margin-right: 2%;
+  }
+  .inforight svg {
+    cursor: pointer;
+  }
